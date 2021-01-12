@@ -7,6 +7,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.Http;
+using System.Net.Http.Formatting;
 
 namespace CRUD_JQUERY
 {
@@ -17,7 +18,9 @@ namespace CRUD_JQUERY
             // Code that runs on application startup
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);            
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            GlobalConfiguration.Configuration.Formatters.Add(new CSVFormatter(new QueryStringMapping("format", "csv", "text/csv")));//url?format=csv
+
         }
     }
 }
