@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD-JQUERY", "CRUD-JQUERY\CRUD-JQUERY.csproj", "{A7F5F3FF-348B-4CEF-80C8-FDA5CC135D23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7F5F3FF-348B-4CEF-80C8-FDA5CC135D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F5F3FF-348B-4CEF-80C8-FDA5CC135D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F5F3FF-348B-4CEF-80C8-FDA5CC135D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F5F3FF-348B-4CEF-80C8-FDA5CC135D23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED3ADDAA-D0D2-4E8E-B78C-3F87DA677E53}
+	EndGlobalSection
+EndGlobal
