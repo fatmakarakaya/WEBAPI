@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1321
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD-JQUERY", "CRUD-JQUERY\CRUD-JQUERY.csproj", "{A7F5F3FF-348B-4CEF-80C8-FDA5CC135D23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelValidation", "ModelValidation\ModelValidation.csproj", "{13B0628C-34E7-49EC-8732-49C48910C0D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A7F5F3FF-348B-4CEF-80C8-FDA5CC135D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7F5F3FF-348B-4CEF-80C8-FDA5CC135D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7F5F3FF-348B-4CEF-80C8-FDA5CC135D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B0628C-34E7-49EC-8732-49C48910C0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B0628C-34E7-49EC-8732-49C48910C0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B0628C-34E7-49EC-8732-49C48910C0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B0628C-34E7-49EC-8732-49C48910C0D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

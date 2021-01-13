@@ -145,7 +145,16 @@
 
         LoadEmployees();
 
-        $("#btnCreate").click(CreateEmployee());
+       
+        //$("#btnCreate").click(function () {
+        //    CreateEmployee();
+        //});
+
+        $(document).on('click', '#btnCreate', function () {
+            CreateEmployee();
+        });
+
+        
     });
 
 </script>
