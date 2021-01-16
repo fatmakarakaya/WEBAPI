@@ -1,4 +1,5 @@
-﻿using ModelValidation.Models;
+﻿using ModelValidation.Filter;
+using ModelValidation.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ using System.Web.Http;
 
 namespace ModelValidation.Controllers
 {
+    [MyModelAttribute]
     public class UserController : ApiController
     {
         [HttpPost]
